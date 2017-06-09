@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Agence de voyages en ligne, bons plans vacances </title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id = "wrapper">
+
+
+<header>
+
+<div id= "top-header"> <!-- bande grise -->
+
+</div> <!-- fin div top-header -->
+
+<hr class= "hr1">
+
+<div id = "main-header"> <!-- où il y a le logo -->
+
+
+<img class = "logo" src="images/logo_header.png" alt="logo thomas cook voyages">
+<h1 class= "sous-le-logo"> L'agence de voyage en ligne de Thomas Cook </h1>
+</div> <!-- fin du main-header -->
+
+<div id= "container">
+
+<div class= "type-voyages">   Type <br> de voyages
+</div>
+<div class= "destinations" > Destinations
+</div>
+<div class= "promos" > Promos
+</div>
+<div class= "derniere-minute" > Dernière minute
+</div>
+<div class= "partenaires"> Partenaires
+</div>
+
+</div> <!-- fin du div container -->
+</header>
+
+<div id= "black-left" >
+<div id= "black-left-onglets">
+<div id= "voyages">
+<span> Voyages </span>
+</div>
+<div id= "hotels-locations">
+<span> Hôtels &amp; Locations </span>
+</div>
+
+</div> <!--fin du div black-left-onglets -->
+
+<div= "radio-buttons">
+<form method="post" action="traitement.php">
+<div class= "radiotext1">
+<input type="radio" class= "input" name="type" value="sejour-club"checked /> <label> Séjour / Club </label>
+</div> <!--fin du div radiotext1 -->
+<div class= "radiotext2">
+<input type="radio" class= "input" name="type" value="circuit" id="circuit" /> <label> Circuit </label>
+</div> <!--fin du div radio buttons -->
+</form>
+
+<form>
+<div id ="container-4box">
+<div class= "box box1">
+<p> Ville de départ </p>
+
+<input type="text" name="question" value="Indifférent"
+ id="villedepart"  style= "color:grey" font-weight= "bold"/>
+</div> <!--fin du div box1 -->
+
+<div class= "box box2">
+  <p> Destination </p>
+  <input type="text" name="question" value="Paris, Région...etc."
+   id="destination"  style= "color:grey" font-weight= "bold"/>
+
+</div>  <!--fin du div box2 -->
+
+<div class= "box box3">
+  <p> Date de départ </p>
+  <input type="text" name="question" value="Indifférent"
+   id="datedepart"  style= "color:grey" font-weight= "bold"/>
+</div>     <!--fin du div box3 -->
+<div class= "box box4">
+  <p> Durée </p>
+  <input type="text" name="question" value="Indifférent"
+   id="duree"  style= "color:grey" font-weight= "bold"/>
+</div>  <!--fin du div box4 -->
+</form>
+</div>  <!--fin du div container-4box -->
+
+
+
+
+
+</div> <!--fin du div black-left -->
+
+
+<div id= "workinprogress">
+<p> Work in progress <p>
+</div> <!--fin du div workinprogress-->
+
+
+
+</div> <!--fin du div wrapper -->
+</body>
+</html>

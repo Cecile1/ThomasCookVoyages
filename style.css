@@ -1,0 +1,168 @@
+
+#wrapper {
+margin-left: 91px;
+Min-height: 100vh;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+body {
+margin-top: 0;
+
+}
+
+@font-face {font-family: 'Thomas_Script_1_5_CT';
+font-style: normal;
+font-weight: normal;
+src: url('https://customerassetse1.azureedge.net/21577/fonts/d43acf37-4e94-494b-9d4a-704090cf6add/regular.ttf') format('truetype');
+}
+
+@font-face .sous-le-logo {
+font-family: 'ThomasHeadline-Black_2_5';
+font-style: normal;
+font-weight: normal;
+src: url('https://customerassetse1.azureedge.net/21577/fonts/d5757eec-ada1-4ee5-ae39-61aa515f3bf5/regular.ttf')
+format('truetype');
+}
+
+.main-header {
+margin-left: 91px;
+}
+
+#top-header {
+background-color: #F2F2F2;
+height: 53px;
+width: 100% !important;
+margin-top: 0;
+
+}
+
+
+.hr1  {
+width: 1170px;
+background-color: #F9E383;
+height: 3px;
+margin-top: 0;
+border-style: hidden;
+margin-bottom: 0;
+}
+
+.logo {
+width: 250px;
+}
+
+.sous-le-logo {
+color: #d0d0d0;
+font: 14px 'ThomasHeadline-Black_2_5', Arial,sans-serif;
+}
+
+#main-header {
+font: 14px 'ThomasHeadline-Black_2_5', Arial,sans-serif;
+display: inline-flex;
+flex-direction: column;
+}
+
+#container {
+display: inline-flex;
+flex-direction: row;
+font: 17px 'ThomasHeadline-Black_2_5', Arial,sans-serif;
+font-weight: bold;
+justify-content: space-around;
+width: 900px;
+height: 60px;
+padding-top: 42px;
+}
+
+ #main-header,
+ #container {
+flex-wrap: wrap;
+ }
+
+ #black-left {
+  background-color: #444649;
+  color: white;
+  width: 530px;
+  height: 550px;
+  margin-top: 20px;
+ }
+
+
+  #black-left-onglets {
+  font-family: 'Thomas_Script_1_5_CT';
+  font-size: 17px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+ text-align: center;
+ align-content: center;
+ line-height: 50px;
+  }
+
+ #voyages {
+width: 207px;
+height: 50px;
+justify-content: flex-start;
+ }
+
+#hotels-locations {
+width: 324px;
+height: 50px;
+background-color: #747578;
+justify-content: flex-end;
+}
+
+.radiotext1,
+.radiotext2 {
+
+font: 16px 'ThomasHeadline-Black_2_5', Arial,sans-serif;
+font-weight: bold;
+display: inline-flex;
+margin-top: 35px;
+margin-right: 30px;
+margin-left: 35px;
+}
+
+#container-4box {
+margin-top: 28px;
+margin-left: 35px;
+font: 16px 'ThomasHeadline-Black_2_5', Arial,sans-serif;
+font-weight: bold;
+width: 490px;
+display: inline-flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex-flow: row wrap;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+}
+
+.box1 {
+order:1;
+margin-right: 60px;
+margin-bottom: 30px;
+}
+.box2 {
+order: 2;
+}
+
+.box3 {
+order: 3;
+margin-right: 60px;
+margin-bottom: 30px;
+}
+
+.box4 {
+order: 4;
+}
+
+#workinprogress {
+font-size: 100px;
+color: green;
+transform: rotate(-15deg);
+margin-left: 25px;
+}
